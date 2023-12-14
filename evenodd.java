@@ -4,7 +4,7 @@ public class evenodd{
    public static void main(String args[]){
       Scanner number = new Scanner(System.in);
       //Taking input from user 
-      System.out.println("Please Enter Your Number: ");
+      System.out.print("Please Enter Your Number: ");
       int num = number.nextInt();
       
       //Finding the number is Even or Odd.

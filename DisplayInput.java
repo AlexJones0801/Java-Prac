@@ -2,8 +2,8 @@
 
 public class DisplayInput{
 	public static void main(String args[]) {
-		System.out.println("Name: " + args[1]);
-		System.out.println("Roll Number: " + args[2]);
-		System.out.println("Branch Name: " + args[3]);
+		System.out.println("Name: " + args[0]);
+		System.out.println("Roll Number: " + args[1]);
+		System.out.println("Branch Name: " + args[2]);
 	}
 }

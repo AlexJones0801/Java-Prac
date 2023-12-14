@@ -5,7 +5,7 @@ public class Temperature{
       Scanner celsius = new Scanner(System.in);
       
       //Taking input in celsius
-      System.out.println("Please Enter Celsius Temperature: ");
+      System.out.print("Please Enter Celsius Temperature: ");
       float c = celsius.nextFloat();
       
       //Converting to Fahrenheit 

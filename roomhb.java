@@ -1,0 +1,1 @@
+//Q19 Declare a class room containing length and breadth as its variables and methods get_data, get_area and get_perimeter. Create 4 objects of this room class initialize instance variables using get_data method and find area and perimeter of all the four rooms.

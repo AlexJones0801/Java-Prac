@@ -4,9 +4,9 @@ public class maxmin{
    public static void main(String args[]){
       Scanner value = new Scanner(System.in);
       //Taking input x and y from user
-      System.out.println("Please Enter the value of x: ");
+      System.out.print("Please Enter the value of x: ");
       double x = value.nextInt();
-      System.out.println("Please Enter the value of y: ");
+      System.out.print("Please Enter the value of y: ");
       double y = value.nextInt();
       
       //Printing maximum, minimum and power of x and y.

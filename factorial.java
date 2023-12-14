@@ -4,7 +4,7 @@ public class factorial{
    public static void main(String args[]){
       Scanner num = new Scanner(System.in);
       
-      System.out.println("Please Enter a Number: ");
+      System.out.print("Please Enter a Number: ");
       int n = num.nextInt();
       
       //Using for loop for calculating factorial of the given number

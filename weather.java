@@ -4,7 +4,7 @@ public class weather{
    public static void main(String args[]){
       Scanner code = new Scanner(System.in);
       //Taking input of a weather coda from user
-      System.out.println("Please Enter Weather code(1-4): ");
+      System.out.print("Please Enter Weather code(1-5): ");
       int weathercode = code.nextInt();
       
       //Switch case for checking weather code
@@ -20,6 +20,9 @@ public class weather{
             break;
          case 4:
             System.out.println("Weather Forecast: Stormy");
+            break;
+         case 5:
+            System.out.println("Weather Forecast: Thunder Storm");
             break;
          default:
             System.out.println("Invalid Weather Code.");
